@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-ink-950 font-sans text-ink-100 antialiased;
+  }
+  ::selection {
+    @apply bg-lime-400 text-ink-950;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #eef0f2;
+    -webkit-box-shadow: 0 0 0 1000px #16191e inset;
+    caret-color: #eef0f2;
+  }
+}
+
+@layer utilities {
+  .animate-pop {
+    animation: pop 0.35s cubic-bezier(0.2, 0.9, 0.3, 1.2);
+  }
+  .animate-toast {
+    animation: toast 0.25s ease-out;
+  }
+}
+
+@keyframes pop {
+  from { opacity: 0; transform: translateY(12px) scale(0.96); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes toast {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
