@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1780 1180" width="1780" height="1180" font-family="DejaVu Sans">
+<rect width="1780" height="1180" rx="0" fill="#101217"/>
+<text x="60" y="66" font-family="DejaVu Sans" font-size="30" font-weight="bold" fill="#e6e9ee">FITTRACK <tspan fill="#9aa2ae" font-weight="normal">·</tspan> DIAGRAMA ENTIDADE-RELACIONAMENTO</text>
+<text x="60" y="96" font-size="16" fill="#cbf94a">PostgreSQL no Supabase • entidades e relacionamentos principais</text>
+<path d="M150,334 V450" stroke="#cbf94a" stroke-width="2.5" fill="none"/>
+<rect x="137.0" y="355.0" width="26" height="22" rx="7" fill="#101217" stroke="#cbf94a" stroke-width="1.5"/><text x="150" y="371" text-anchor="middle" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#cbf94a">1</text>
+<rect x="137.0" y="407.0" width="26" height="22" rx="7" fill="#101217" stroke="#cbf94a" stroke-width="1.5"/><text x="150" y="423" text-anchor="middle" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#cbf94a">1</text>
+<path d="M460,532.0 H555.0 V572.0 H650" stroke="#5ec8f8" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+<rect x="473.0" y="521.0" width="26" height="22" rx="7" fill="#101217" stroke="#5ec8f8" stroke-width="1.5"/><text x="486" y="537.0" text-anchor="middle" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#5ec8f8">1</text>
+<rect x="611.0" y="561.0" width="26" height="22" rx="7" fill="#101217" stroke="#5ec8f8" stroke-width="1.5"/><text x="624" y="577.0" text-anchor="middle" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#5ec8f8">N</text>
+<path d="M1240,232.0 H1145.0 V612.0 H1050" stroke="#c4a5ff" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+<rect x="1201.0" y="221.0" width="26" height="22" rx="7" fill="#101217" stroke="#c4a5ff" stroke-width="1.5"/><text x="1214" y="237.0" text-anchor="middle" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#c4a5ff">1</text>
+<rect x="1063.0" y="601.0" width="26" height="22" rx="7" fill="#101217" stroke="#c4a5ff" stroke-width="1.5"/><text x="1076" y="617.0" text-anchor="middle" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#c4a5ff">N</text>
+<path d="M1640,232.0 H1710 V762.0 H1640" stroke="#f7b955" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+<rect x="1653.0" y="221.0" width="26" height="22" rx="7" fill="#101217" stroke="#f7b955" stroke-width="1.5"/><text x="1666" y="237.0" text-anchor="middle" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#f7b955">1</text>
+<rect x="1653.0" y="751.0" width="26" height="22" rx="7" fill="#101217" stroke="#f7b955" stroke-width="1.5"/><text x="1666" y="767.0" text-anchor="middle" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#f7b955">N</text>
+<g><rect x="60" y="150" width="400" height="184" rx="14" fill="#1a1d24" stroke="#3a404b" stroke-width="2"/>
+<path d="M60,204 h400" stroke="#3a404b" stroke-width="2"/>
+<text x="82" y="185" font-family="DejaVu Sans" font-size="21" font-weight="bold" fill="#e6e9ee">auth.users</text>
+<text x="438" y="184" text-anchor="end" font-family="DejaVu Sans" font-size="12" fill="#9aa2ae">Supabase Auth</text>
+<path d="M308.0,204 V334" stroke="#3a404b" stroke-width="1.5" opacity="0.7"/>
+<text x="82" y="239.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="bold" fill="#cbf94a">id</text>
+<text x="326.0" y="239.0" font-family="DejaVu Sans Mono" font-size="16" fill="#cbf94a">UUID</text>
+<text x="82" y="279.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">email</text>
+<text x="326.0" y="279.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">String</text>
+<text x="82" y="319.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">created_at</text>
+<text x="326.0" y="319.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Date</text>
+</g>
+<g><rect x="60" y="450" width="400" height="544" rx="14" fill="#1a1d24" stroke="#3a404b" stroke-width="2"/>
+<path d="M60,504 h400" stroke="#3a404b" stroke-width="2"/>
+<text x="82" y="485" font-family="DejaVu Sans" font-size="21" font-weight="bold" fill="#e6e9ee">profiles</text>
+<path d="M308.0,504 V994" stroke="#3a404b" stroke-width="1.5" opacity="0.7"/>
+<text x="82" y="539.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="bold" fill="#cbf94a">id</text>
+<text x="326.0" y="539.0" font-family="DejaVu Sans Mono" font-size="16" fill="#cbf94a">UUID</text>
+<text x="82" y="579.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">name</text>
+<text x="326.0" y="579.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">String</text>
+<text x="82" y="619.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">age</text>
+<text x="326.0" y="619.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+<text x="82" y="659.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">height</text>
+<text x="326.0" y="659.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Numeric</text>
+<text x="82" y="699.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">weight</text>
+<text x="326.0" y="699.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Numeric</text>
+<text x="82" y="739.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">goal</text>
+<text x="326.0" y="739.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Enum</text>
+<text x="82" y="779.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">fitness_level</text>
+<text x="326.0" y="779.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Enum</text>
+<text x="82" y="819.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">avatar_url</text>
+<text x="326.0" y="819.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">String</text>
+<text x="82" y="859.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">xp</text>
+<text x="326.0" y="859.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+<text x="82" y="899.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">total_workouts</text>
+<text x="326.0" y="899.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+<text x="82" y="939.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">created_at</text>
+<text x="326.0" y="939.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Date</text>
+<text x="82" y="979.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">updated_at</text>
+<text x="326.0" y="979.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Date</text>
+</g>
+<g><rect x="650" y="450" width="400" height="264" rx="14" fill="#1a1d24" stroke="#3a404b" stroke-width="2"/>
+<path d="M650,504 h400" stroke="#3a404b" stroke-width="2"/>
+<text x="672" y="485" font-family="DejaVu Sans" font-size="21" font-weight="bold" fill="#e6e9ee">training_sessions</text>
+<path d="M898.0,504 V714" stroke="#3a404b" stroke-width="1.5" opacity="0.7"/>
+<text x="672" y="539.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="bold" fill="#cbf94a">id</text>
+<text x="916.0" y="539.0" font-family="DejaVu Sans Mono" font-size="16" fill="#cbf94a">UUID</text>
+<text x="672" y="579.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="bold" fill="#5ec8f8">user_id</text>
+<text x="916.0" y="579.0" font-family="DejaVu Sans Mono" font-size="16" fill="#5ec8f8">UUID</text>
+<text x="672" y="619.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="bold" fill="#c4a5ff">training_id</text>
+<text x="916.0" y="619.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c4a5ff">UUID</text>
+<text x="672" y="659.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">completed_at</text>
+<text x="916.0" y="659.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Date</text>
+<text x="672" y="699.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">xp_earned</text>
+<text x="916.0" y="699.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+</g>
+<g><rect x="1240" y="150" width="400" height="384" rx="14" fill="#1a1d24" stroke="#3a404b" stroke-width="2"/>
+<path d="M1240,204 h400" stroke="#3a404b" stroke-width="2"/>
+<text x="1262" y="185" font-family="DejaVu Sans" font-size="21" font-weight="bold" fill="#e6e9ee">training_catalog</text>
+<path d="M1488.0,204 V534" stroke="#3a404b" stroke-width="1.5" opacity="0.7"/>
+<text x="1262" y="239.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="bold" fill="#cbf94a">id</text>
+<text x="1506.0" y="239.0" font-family="DejaVu Sans Mono" font-size="16" fill="#cbf94a">UUID</text>
+<text x="1262" y="279.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">name</text>
+<text x="1506.0" y="279.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">String</text>
+<text x="1262" y="319.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">description</text>
+<text x="1506.0" y="319.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Text</text>
+<text x="1262" y="359.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">goal</text>
+<text x="1506.0" y="359.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Enum</text>
+<text x="1262" y="399.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">difficulty</text>
+<text x="1506.0" y="399.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Enum</text>
+<text x="1262" y="439.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">duration_minutes</text>
+<text x="1506.0" y="439.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+<text x="1262" y="479.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">xp_reward</text>
+<text x="1506.0" y="479.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+<text x="1262" y="519.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">created_at</text>
+<text x="1506.0" y="519.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Date</text>
+</g>
+<g><rect x="1240" y="640" width="400" height="384" rx="14" fill="#1a1d24" stroke="#3a404b" stroke-width="2"/>
+<path d="M1240,694 h400" stroke="#3a404b" stroke-width="2"/>
+<text x="1262" y="675" font-family="DejaVu Sans" font-size="21" font-weight="bold" fill="#e6e9ee">training_exercises</text>
+<path d="M1488.0,694 V1024" stroke="#3a404b" stroke-width="1.5" opacity="0.7"/>
+<text x="1262" y="729.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="bold" fill="#cbf94a">id</text>
+<text x="1506.0" y="729.0" font-family="DejaVu Sans Mono" font-size="16" fill="#cbf94a">UUID</text>
+<text x="1262" y="769.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="bold" fill="#f7b955">training_id</text>
+<text x="1506.0" y="769.0" font-family="DejaVu Sans Mono" font-size="16" fill="#f7b955">UUID</text>
+<text x="1262" y="809.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">name</text>
+<text x="1506.0" y="809.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">String</text>
+<text x="1262" y="849.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">description</text>
+<text x="1506.0" y="849.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Text</text>
+<text x="1262" y="889.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">sets</text>
+<text x="1506.0" y="889.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+<text x="1262" y="929.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">repetitions</text>
+<text x="1506.0" y="929.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+<text x="1262" y="969.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">duration_seconds</text>
+<text x="1506.0" y="969.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+<text x="1262" y="1009.0" font-family="DejaVu Sans Mono" font-size="16" font-weight="normal" fill="#e6e9ee">order_index</text>
+<text x="1506.0" y="1009.0" font-family="DejaVu Sans Mono" font-size="16" fill="#c8cdd6">Int</text>
+</g>
+<rect x="650" y="830" width="530" height="196" rx="14" fill="#1a1d24" stroke="#3a404b" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="672" y="864" font-family="DejaVu Sans" font-size="15" font-weight="bold" fill="#cbf94a">REGRAS NO BANCO</text>
+<text x="672" y="904" font-family="DejaVu Sans Mono" font-size="15" fill="#e6e9ee">Row Level Security ativa</text>
+<text x="672" y="924" font-family="DejaVu Sans" font-size="14" fill="#9aa2ae">nas quatro tabelas</text>
+<text x="672" y="946" font-family="DejaVu Sans Mono" font-size="15" fill="#e6e9ee">complete_training()</text>
+<text x="672" y="966" font-family="DejaVu Sans" font-size="14" fill="#9aa2ae">registra a sessão e concede o XP</text>
+<text x="672" y="988" font-family="DejaVu Sans Mono" font-size="15" fill="#e6e9ee">get_user_stats()</text>
+<text x="672" y="1008" font-family="DejaVu Sans" font-size="14" fill="#9aa2ae">devolve XP, nível, semana e sequência</text>
+<rect x="60" y="1113" width="16" height="16" rx="4" fill="#cbf94a"/>
+<text x="86" y="1126" font-family="DejaVu Sans" font-size="15" fill="#9aa2ae">Chave primária</text>
+<rect x="390" y="1113" width="16" height="16" rx="4" fill="#5ec8f8"/>
+<text x="416" y="1126" font-family="DejaVu Sans" font-size="15" fill="#9aa2ae">FK para profiles</text>
+<rect x="720" y="1113" width="16" height="16" rx="4" fill="#c4a5ff"/>
+<text x="746" y="1126" font-family="DejaVu Sans" font-size="15" fill="#9aa2ae">FK para training_catalog</text>
+<rect x="1050" y="1113" width="16" height="16" rx="4" fill="#f7b955"/>
+<text x="1076" y="1126" font-family="DejaVu Sans" font-size="15" fill="#9aa2ae">FK dentro do catálogo</text>
+</svg>
